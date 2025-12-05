@@ -25,6 +25,12 @@ useEffect(()=>{
   const handleClick=(Id)=>{
      setActiveOption(Id);
      setOpen(false)
+    //  It finds the <section> tag with same ID as the clicked menu item
+       const section = document.getElementById(Id);
+  if (section) {
+    // Scrolls the page to that section smoothly , not a sudden jump
+    section.scrollIntoView({ behavior: "smooth" });
+  }
   }
   return (
       <nav

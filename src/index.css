@@ -18,8 +18,12 @@ html{
 }
 @theme {
   --bg-skills-gradient: linear-gradient(38.73deg, rgba(204,0,187,0.15) 0%, rgba(201,32,184,0) 50%), linear-gradient(141.27deg, rgba(0,70,209,0) 50%, rgba(0,70,209,0.15) 100%);
+  --bg-projects-gradient: linear-gradient(38.73deg, rgba(10, 185, 234, 0.15) 0%, rgba(10, 185, 234, 0) 50%),linear-gradient(141.27deg, rgba(255, 165, 0, 0) 50%, rgba(255, 165, 0, 0.15) 100%);
 }
 
 @utility bg-skills-gradient {
   background-image: var(--bg-skills-gradient);
+}
+@utility bg-projects-gradient {
+  background-image: var(--bg-projects-gradient);
 }
